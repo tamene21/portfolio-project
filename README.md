@@ -68,4 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-### AUTHOR: Tamene Gelaye
+## Note
+Since there is a .gitignore file generated when we generate the project, and it contains the line that excludes the node_modules repository from being pushed and it may also take a long time to push with large files it is advisable to run `npm i` before `ng serve`. Doing so is widely accepted as a standard.
+
+# AUTHOR: Tamene Gelaye
